@@ -1,8 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
-  background-color: #5e4485;
-  color: #FFF;
+  background-color: #dbb700;
+  color: #000000;
   padding: 1% 0;
   font-size: 1.2em;
   border: 0;
@@ -16,11 +20,11 @@
 
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
   color: #FFF;
-  background-color: #5e4485;
+  background-color: #dbb700;
 }
 
-.narbar-inverse .navbar-nav li a {
-  color: #D5D5D5;
+.navbar-inverse .navbar-nav>li>a {
+  color: #000000;
 }
 
 .carousel-caption {
@@ -58,23 +62,30 @@
 
 .btn {
   font-size: 18px;
-  color: #FFF;
+  color: #000000;
   padding: 12px 22px;
-  background-color: #5E4485;
-  border: 2px solid #FFF;
+  background-color: #dbb700;
+  border: 2px solid #000000;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  padding: 15px;
+  font-size: 25px;
+  color: #ffffff;
 }
 
 footer {
   width: 100%;
-  background-color: #5E4485;
+  background-color: #dbb700;
   padding: 5%;
-  color: #FFF;
+  color: #000000;
 }
 
 .fa {
   padding: 15px;
   font-size: 25px;
-  color: #FFF;
+  color: #000000;
 }
 
 .fa:hover {
